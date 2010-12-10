@@ -8,4 +8,4 @@ Sources
 
 Post-installation
 -----------------
-*  `~/.vim/post-installation`
+*  `cd ~/.vim && ./post-installation`
