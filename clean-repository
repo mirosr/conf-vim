@@ -1,0 +1,8 @@
+# rm tags files
+rm -f \
+bundle/autoclose/doc/tags \
+bundle/git/doc/tags \
+bundle/matchit/doc/tags \
+bundle/snipmate/doc/tags \
+bundle/surround/doc/tags \
+bundle/tcomment/doc/tags
