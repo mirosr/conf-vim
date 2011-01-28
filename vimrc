@@ -59,6 +59,11 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=1
 
+"File manager
+let g:netrw_liststyle=3
+let g:netrw_browse_split=4
+let g:netrw_preview=1
+
 "ruby
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
@@ -70,7 +75,5 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 map <C-V> "+gP
 cmap <C-V> <C-R>+
 vnoremap <C-C> "+y""
-"NERDTree
-map <F9> :NERDTreeToggle<Enter>
 "AutoClose
 map <F8> :AutoCloseToggle<Enter>
