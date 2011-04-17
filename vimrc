@@ -9,15 +9,16 @@ call pathogen#helptags()
 "---------------------------------------------------------------------
 " General
 "---------------------------------------------------------------------
+filetype on
 filetype plugin on
 filetype indent on
-syntax enable
-set autoread
+syntax on
+set ar
 set history=400
-set pastetoggle=<F12>
-set nobackup
+set pt=<F12>
+set nobk
 set nowb
-set noswapfile
+set noswf
 "---------------------------------------------------------------------
 
 
@@ -26,40 +27,41 @@ set noswapfile
 "---------------------------------------------------------------------
 " General
 set t_Co=256
-colorscheme ir_black 
+colo ir_black
 set background=dark
-set wildmenu
-set ruler
-set cmdheight=2
-set lazyredraw
+set wmnu
+set ru
+set ch=2
+set lz
 set backspace=eol,start,indent
 set ignorecase
 set smartcase
-set incsearch
-set showmatch
+set is
+set sm
 set mat=2
-set hlsearch
+set hls
+set ls=2
+set stl=%f\ %m\ %r\ Line:%l/%L[%p%%]\ Col:%c\ Buf:%n\ ASCII:%b
 
-" Wrap 
-set wrap
-set linebreak
-set whichwrap+=<,>,h,l
+" Wrap
+set lbr
+set ww+=h,l
 
 " Indent
-set autoindent
-set smartindent
+set ai
+set si
 
 " Tab
-set expandtab
-set tabstop=2
-set shiftwidth=2
-set smarttab
+set et
+set ts=2
+set sw=2
+set sta
 
 " Folding
-set nofoldenable
-set foldmethod=indent
-set foldnestmax=10
-set foldlevel=1
+set nofen
+set fdm=indent
+set fdn=10
+set fdl=1
 
 " File manager
 let g:netrw_liststyle=3
