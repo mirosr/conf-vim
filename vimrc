@@ -14,7 +14,7 @@ filetype plugin on
 filetype indent on
 syntax on
 set ar
-set history=400
+set hi=50
 set pt=<F12>
 set nobk
 set nowb
@@ -28,14 +28,14 @@ set noswf
 " General
 set t_Co=256
 colo ir_black
-set background=dark
+set bg=dark
 set wmnu
 set ru
 set ch=2
 set lz
-set backspace=eol,start,indent
-set ignorecase
-set smartcase
+set bs=eol,start,indent
+set ic
+set scs
 set is
 set sm
 set mat=2
@@ -84,14 +84,31 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global=1
 "---------------------------------------------------------------------
 " Key mappings
 "---------------------------------------------------------------------
+" Disable arrow keys
+inoremap <Up>    <NOP>
+inoremap <Down>  <NOP>
+inoremap <Left>  <NOP>
+inoremap <Right> <NOP>
+nnoremap  <Up>    <NOP>
+nnoremap  <Down>  <NOP>
+nnoremap  <Left>  <NOP>
+nnoremap  <Right> <NOP>
+
+" Disable page keys
+inoremap <PageUp>   <NOP>
+nnoremap  <PageDown> <NOP>
+
 " Copy/Paste
 map <C-V> "+gP
 cmap <C-V> <C-R>+
 vnoremap <C-C> "+y""
 
+" Stop the highlighting
+map <F2> :noh<CR>
+
 " AutoClose
-map <F8> :AutoCloseToggle<Enter>
+map <F8> :AutoCloseToggle<CR>
 
 " File manager
-map <F9> :Ve<Enter>
+map <F9> :Ve<CR>
 "---------------------------------------------------------------------

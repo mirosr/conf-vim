@@ -9,5 +9,3 @@ set gfn=Terminus\ 12
 " Highlight current line
 "----------------------------------------------------------
 set cul
-hi cursorline guibg=#333333
-hi CursorColumn guibg=#333333
