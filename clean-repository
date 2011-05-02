@@ -5,4 +5,5 @@ bundle/git/doc/tags \
 bundle/matchit/doc/tags \
 bundle/snipmate/doc/tags \
 bundle/surround/doc/tags \
-bundle/tcomment/doc/tags
+bundle/tcomment/doc/tags \
+bundle/textobj-user/doc/tags
