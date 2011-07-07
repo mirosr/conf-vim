@@ -96,14 +96,20 @@ inoremap <Up>    <NOP>
 inoremap <Down>  <NOP>
 inoremap <Left>  <NOP>
 inoremap <Right> <NOP>
-nnoremap  <Up>    <NOP>
-nnoremap  <Down>  <NOP>
-nnoremap  <Left>  <NOP>
-nnoremap  <Right> <NOP>
+nnoremap <Up>    <NOP>
+nnoremap <Down>  <NOP>
+nnoremap <Left>  <NOP>
+nnoremap <Right> <NOP>
 
 " Disable page keys
 inoremap <PageUp>   <NOP>
 nnoremap  <PageDown> <NOP>
+
+" Switch between windows
+map <C-K> <C-W>k
+map <C-J> <C-W>j
+map <C-H> <C-W>h
+map <C-L> <C-W>l
 
 " Copy/Paste
 map <C-V> "+gP
