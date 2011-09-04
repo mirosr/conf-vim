@@ -38,7 +38,7 @@ colo ir_black
 set bg=dark
 set wmnu
 set ru
-set ch=2
+set ch=1
 set lz
 set bs=eol,start,indent
 set ic
@@ -72,9 +72,9 @@ set fdl=1
 
 " File manager
 let g:netrw_liststyle=3
-let g:netrw_browse_split=4
-let g:netrw_preview=1
-let g:netrw_winsize=40 
+let g:netrw_browse_split=0
+let g:netrw_preview=0
+let g:netrw_winsize=80
 "---------------------------------------------------------------------
 
 
@@ -105,7 +105,7 @@ nnoremap <Right> <NOP>
 
 " Disable page keys
 inoremap <PageUp>   <NOP>
-nnoremap  <PageDown> <NOP>
+nnoremap <PageDown> <NOP>
 
 " Switch between windows
 map <C-K> <C-W>k
@@ -125,5 +125,5 @@ map <F2> :noh<CR>
 map <F8> :AutoCloseToggle<CR>
 
 " File manager
-map <F9> :Ve<CR>
+map <F9> :E<CR>
 "---------------------------------------------------------------------
