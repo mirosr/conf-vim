@@ -9,3 +9,7 @@ Sources
 Post-installation
 -----------------
 *  `cd ~/.vim && ./post-installation`
+
+Update bundle
+-------------
+*  `cd ~/.vim && ./update-bundle`
