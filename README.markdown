@@ -17,3 +17,7 @@ Update
 Update bundle
 -------------
 *  `cd ~/.vim && ./update-bundle`
+
+Update pathogen
+---------------
+*  `cd ~/.vim && ./update-pathogen`
