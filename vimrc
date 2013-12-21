@@ -87,6 +87,7 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global=1
 "---------------------------------------------------------------------
 " Key bindings while typing non-latin text
 set langmap=Ч~,ЯQ,ВW,ЕE,РR,ТT,ЪY,УU,ИI,ОO,ПP,Ш{,Щ},АA,СS,ДD,ФF,ГG,ХH,ЙJ,КK,ЛL,ЗZ,ЬX,ЦC,ЖV,БB,НN,МM,ч`,яq,вw,еe,рr,тt,ъy,уu,иi,оo,пp,ш[,щ],аa,сs,дd,фf,гg,хh,йj,кk,лl,зz,ьx,цc,жv,бb,нn,мm
+
 " Disable arrow keys
 inoremap <Up>    <NOP>
 inoremap <Down>  <NOP>
@@ -100,6 +101,9 @@ nnoremap <Right> <NOP>
 " Disable page keys
 inoremap <PageUp>   <NOP>
 nnoremap <PageDown> <NOP>
+
+" Disable entering Ex mode with Q
+map Q <Nop>
 
 " Switch between windows
 map <C-K> <C-W>k
