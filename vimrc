@@ -34,7 +34,7 @@ set noswf
 "---------------------------------------------------------------------
 " General
 set t_Co=256
-colo ir_black
+colo jellybeans
 set bg=dark
 set wmnu
 set ru
