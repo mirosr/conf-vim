@@ -120,5 +120,5 @@ vnoremap <C-C> "+y""
 map <F2> :noh<CR>
 
 " AutoClose
-map <F8> :AutoCloseToggle<CR>
+map <F3> :AutoCloseToggle<CR>
 "---------------------------------------------------------------------
