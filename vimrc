@@ -121,7 +121,4 @@ map <F2> :noh<CR>
 
 " AutoClose
 map <F8> :AutoCloseToggle<CR>
-
-" File manager
-map <F9> :E<CR>
 "---------------------------------------------------------------------
