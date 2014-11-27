@@ -3,8 +3,8 @@ Installation
 
 Sources
 -------
-*  `git clone http://git.gitorious.org/mirosr/conf-vim.git`
-*  `git clone https://mirosr@github.com/mirosr/conf-vim.git`
+*  `git clone https://github.com/mirosr/conf-vim.git ~/.vim`
+*  `git clone https://gitorious.org/mirosr/conf-vim.git ~/.vim`
 
 Post-installation
 -----------------
