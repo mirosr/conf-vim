@@ -49,6 +49,7 @@ set mat=2
 set hls
 set ls=2
 set stl=%f\ %m\ %r\ Line:%l/%L[%p%%]\ Col:%c\ Buf:%n\ ASCII:%b
+set rnu
 
 " Wrap
 set lbr
