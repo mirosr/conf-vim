@@ -70,6 +70,11 @@ set nofen
 set fdm=indent
 set fdn=10
 set fdl=1
+
+" Window splitting
+set splitbelow
+set splitright
+
 "---------------------------------------------------------------------
 
 
