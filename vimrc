@@ -118,6 +118,9 @@ map <C-J> <C-W>j
 map <C-H> <C-W>h
 map <C-L> <C-W>l
 
+" Swapping windows
+map <C-S> <C-W>r
+
 " Copy/Paste
 map <C-V> "+gP
 cmap <C-V> <C-R>+
