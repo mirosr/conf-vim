@@ -18,10 +18,6 @@
 	path = bundle/repeat
 	url = https://github.com/tpope/vim-repeat.git
   ignore = dirty
-[submodule "bundle/matchit"]
-	path = bundle/matchit
-	url = https://github.com/edsono/vim-matchit.git
-  ignore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
