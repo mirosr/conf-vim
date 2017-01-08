@@ -1,23 +1,21 @@
-Installation
-============
+# Installation
 
-Sources
--------
+## Sources
+
 *  `git clone https://github.com/mirosr/conf-vim.git ~/.vim`
-*  `git clone https://gitorious.org/mirosr/conf-vim.git ~/.vim`
 
-Post-installation
------------------
+## Post-installation
+
 *  `cd ~/.vim && ./post-installation`
 
-Update
-------
+## Update
+
 *  `cd ~/.vim && ./update`
 
-Update bundle
--------------
-*  `cd ~/.vim && ./update-bundle`
+# Update the plugins
 
-Update pathogen
----------------
-*  `cd ~/.vim && ./update-pathogen`
+*  `:PlugUpdate`
+
+# Update vim-plug
+
+*  `:PlugUpgrade`

@@ -1,12 +1,4 @@
 #!/bin/sh
 
-# Check if the git command is available
-GIT=$(command -v git 2>/dev/null)
-if [ -z "$GIT" ]; then
-  echo "git: command not found. Aborting!"
-  exit 1
-fi
-
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
-$GIT submodule update --init

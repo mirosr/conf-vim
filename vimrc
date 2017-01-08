@@ -1,8 +1,37 @@
 "---------------------------------------------------------------------
-" Pathogen
+" Plugins
 "---------------------------------------------------------------------
-call pathogen#infect()
-call pathogen#helptags()
+" Auto install vim-plug if it's missing
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/bundle')
+
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tomtom/tcomment_vim'
+Plug 'Townk/vim-autoclose'
+Plug 'tsaleh/vim-supertab'
+Plug 'gregsexton/gitv'
+Plug 'kana/vim-textobj-user'
+Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'nanotech/jellybeans.vim'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-bundler'
+Plug 'kien/ctrlp.vim'
+Plug 'slim-template/vim-slim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'tpope/vim-endwise'
+Plug 'rking/ag.vim'
+
+call plug#end()
 "---------------------------------------------------------------------
 
 
