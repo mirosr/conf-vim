@@ -87,6 +87,7 @@ set et
 set ts=2
 set sw=2
 set sta
+set tpm=30
 
 " Folding
 set nofen
